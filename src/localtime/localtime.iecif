@@ -1,0 +1,15 @@
+{extern_c}
+
+FUNCTION localtime
+	VAR_OUTPUT
+		sec : USINT; /* 0 - 60 */
+		min : USINT; /* 0 - 59 */
+		hour : USINT; /* 0 - 23 */
+		mday : USINT; /* 1 - 31 */
+		mon : USINT; /* 0 - 11 */
+		year : UINT; /* 20xx */
+		wday : USINT; /* 0 - 6 (0 = Sunday) */
+		yday : UINT; /* 0 - 365 (0 = 1 Jan) */
+		isdst : BOOL; /* daylight saving time */
+	END_VAR
+END_FUNCTION

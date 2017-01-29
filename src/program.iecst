@@ -1,0 +1,11 @@
+/*
+ * This is a logi.CAD 3 program template
+ */
+PROGRAM Program1
+	VAR
+		s : USINT;
+		m : USINT;
+		h : USINT;
+	END_VAR
+	localtime(sec => s, min => m, hour => h);
+END_PROGRAM
